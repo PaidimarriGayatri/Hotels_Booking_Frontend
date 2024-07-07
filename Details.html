@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./Details.css" />
+    <link rel="stylesheet" href="./Hotel.css" />
+  </head>
+  <body id="main">
+    <div class="navbar">
+      <div class="logo">
+        <h1>Travel</h1>
+      </div>
+      <div class="menu">
+        <ul>
+          <li><a href="#">Home</a></li>
+          <li><a href="#">Services</a></li>
+          <li><a href="#">Places</a></li>
+          <li><a href="#">Discounts</a></li>
+          <li><a href="#">Contact</a></li>
+          <li><a href="#">Booking</a></li>
+        </ul>
+      </div>
+      <div class="signup">
+        <a href="#">Sign Up</a>
+      </div>
+    </div>
+    <div id="details">
+      <div id="image_display"></div>
+      <br />
+      <div id="hotel_details"></div>
+    </div><br>
+
+    <div style="background-color:  #f7f8fa;" id="form">
+        <form class="form card" id="signup-form">
+            <div class="card_header">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24">
+                  <path fill="none" d="M0 0h24v24H0z"></path>
+                  <path fill="currentColor" d="M4 15h2v5h12V4H6v5H4V3a1 1 0 0 1 1-1h14a1 1 0 0 1 1 1v18a1 1 0 0 1-1 1H5a1 1 0 0 1-1-1v-6zm6-4V8l5 4-5 4v-3H2v-2h8z"></path>
+                </svg>
+                <h1 class="form_heading">Book Now</h1>
+            </div>
+            <div>
+                <h2 id="hname" style="margin-left: 30px; color: blue;" ></h2><br>
+            </div>
+            <div class="field">
+                <label for="firstName">First_Name :</label>
+                <input class="input" name="firstName" type="text" placeholder="Enter firstName" id="firstName">
+            </div>
+            <div class="field">
+                <label for="lastName">Last_Name :</label>
+                <input class="input" name="lastName" type="text" placeholder="Enter lastName" id="lastName">
+            </div>
+            <div class="field">
+                <label for="PhoneNumber">Phone Number :</label>
+                <input class="input" name="Enter_Number" type="tel" placeholder="Enter_Number" id="PhoneNumber">
+              </div>
+            <div class="field">
+              <label for="email">email :</label>
+              <input class="input" name="username" type="email" placeholder="email" id="email">
+            </div>
+              <button class="button" type="submit">Book</button>
+            </div>
+        </form>
+    </div>
+
+    <div class="footer" id="foot">
+		<a href="#">Copyright</a>
+		<a href="#">Terms and Conditions</a>
+		<a href="#">Privacy Policy</a>
+		<a href="#">Cookies</a>
+		<a href="#">Complaints</a> 
+	</div>
+    <script src="./Details.js"></script>
+  </body>
+</html>
